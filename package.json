@@ -1,0 +1,25 @@
+{
+  "name": "ht-cli",
+  "version": "1.0.0",
+  "description": "ht-cli test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "xr": "bin/xr",
+    "xr-init": "bin/xr-init",
+    "xr-list": "bin/xr-list",
+    "xr-add": "bin/xr-add",
+    "xr-delete": "bin/xr-delete"
+  },
+  "author": "hwm",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  }
+}
