@@ -1,6 +1,6 @@
 {
   "name": "ht-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ht-cli test",
   "main": "bin/htx.js",
   "scripts": {
