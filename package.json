@@ -2,16 +2,12 @@
   "name": "ht-cli",
   "version": "1.0.0",
   "description": "ht-cli test",
-  "main": "index.js",
+  "main": "bin/htx.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "xr": "bin/xr",
-    "xr-init": "bin/xr-init",
-    "xr-list": "bin/xr-list",
-    "xr-add": "bin/xr-add",
-    "xr-delete": "bin/xr-delete"
+    "htx": "bin/htx.js"
   },
   "author": "hwm",
   "license": "ISC",
