@@ -1,6 +1,6 @@
 {
-  "name": "ht-cli",
-  "version": "1.0.1",
+  "name": "htx-cli",
+  "version": "1.0.0",
   "description": "ht-cli test",
   "main": "bin/htx.js",
   "scripts": {
@@ -16,6 +16,10 @@
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
     "inquirer": "^8.0.0",
-    "ora": "^5.4.0"
+    "ora": "^5.4.0",
+    "rollup": "^3.23.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-uglify": "^6.0.4"
   }
 }
